@@ -1,0 +1,23 @@
+{
+  "name": "cache-datetime",
+  "version": "1.0.0",
+  "description": "A cache-friendly datetime for URLs and API requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "Date",
+    "Cache"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KrazyCouponLady/cache-datetime.git"
+  },
+  "author": "b3ngineer",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2"
+  }
+}
