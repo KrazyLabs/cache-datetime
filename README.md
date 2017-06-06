@@ -16,8 +16,8 @@ const cacheDatetime = require('cache-datetime');
 // current epoch rounded down to the last five minutes (default)
 const myDatetime5 = cacheDatetime();
 
-// current epoch rounded down to the last ten minutes
-const myDatetime10 = cacheDatetime({ minutes: 10 });
+// specified epoch rounded down to the last ten minutes
+const myDatetime10 = cacheDatetime({ minutes: 10, date: 1496754264 });
 
 // current epoch rounded up to the nearest 10 minutes
 const myDatetimeUp10 = cacheDatetime({ minutes: 10, round: Math.ceil });
