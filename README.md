@@ -22,7 +22,7 @@ const myDatetime10 = cacheDatetime({ minutes: 10, date: 1496754264 });
 // current epoch rounded up to the nearest 10 minutes
 const myDatetimeUp10 = cacheDatetime({ minutes: 10, round: Math.ceil });
 
-// current Date object (not the default result type)
+// current Date object rounded down to the nearest 5 minutes 
 const myDateObject = cacheDatetime({ epoch: false });
 ```
 
