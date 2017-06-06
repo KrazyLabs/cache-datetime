@@ -25,3 +25,17 @@ const myDatetimeUp10 = cacheDatetime({ minutes: 10, round: Math.ceil });
 // current Date object (not the default result type)
 const myDateObject = cacheDatetime({ epoch: false });
 ```
+
+### Constructor
+
+```
+const cacheDatetime = require('cache-datetime');
+
+// defaults shown
+new cacheDatetime({
+  minutes: 5, // number of minutes rounded
+  round: Math.floor, // function to round epoch 
+  epoch: true, // return as epoch value or Date object (false)
+  date: Date.now() // the date to round
+})
+```
